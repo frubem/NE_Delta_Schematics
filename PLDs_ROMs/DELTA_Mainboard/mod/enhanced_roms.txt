@@ -1,0 +1,2 @@
+Note that the VIDEO ROM was not ported to the DELTA, also, for reasons
+yet unknown, the //e ROMs fail the RAM self-test routine.

@@ -1,0 +1,56 @@
+Inputs:
+
+2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19
+
+Outputs:
+
+12 (Registered, Output feedback registered, Active low)
+13 (Registered, Output feedback registered, Active low)
+14 (Registered, Output feedback registered, Active low)
+15 (Registered, Output feedback registered, Active low)
+16 (Registered, Output feedback registered, Active low)
+17 (Registered, Output feedback registered, Active low)
+18 (Registered, Output feedback registered, Active low)
+19 (Registered, Output feedback registered, Active low)
+
+Equations:
+
+/rf12 := rf13 & rf15 & /rf16 & /rf17 +
+         i2 & rf13 & /rf16 & /rf17
+rf12.oe = OE
+
+/rf13 := rf15 & rf17 & /rf18 +
+         /rf15 & rf17 & rf18
+rf13.oe = OE
+
+/rf14 := rf14 & rf15 & /rf18 +
+         rf14 & /rf15 & rf18
+rf14.oe = OE
+
+/rf15 := /rf13 & rf15 & /rf17 & /rf18 +
+         /rf15 & rf17 +
+         rf13 & /rf15
+rf15.oe = OE
+
+/rf16 := /rf14 & rf15 & /rf17 & /rf18 +
+         rf14 & /rf17 & rf18 +
+         rf13 & /rf16 +
+         /rf16 & rf17
+rf16.oe = OE
+
+/rf17 := /rf13 & /rf14 & rf15 & /rf18 +
+         /rf13 & rf14 & /rf15 & rf18 +
+         /rf13 & rf15 & /rf17 & /rf18 +
+         /rf13 & /rf15 & /rf17 & rf18 +
+         rf16
+rf17.oe = OE
+
+/rf18 := /rf13 & /rf15 & /rf17 & rf18 +
+         rf15 & rf17 +
+         rf13 & rf15
+rf18.oe = OE
+
+/rf19 := /i2 & /rf14 & rf15 & /rf18 +
+         /i2 & /rf14 & /rf15 & rf18
+rf19.oe = OE
+

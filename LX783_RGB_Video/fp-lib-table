@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NE_Delta")(type "KiCad")(uri "${KIPRJMOD}/../LX780_Delta/ext/NE_Delta.pretty")(options "")(descr ""))
+)

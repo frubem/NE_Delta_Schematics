@@ -1,0 +1,320 @@
+** Drc report for NE_Delta.kicad_pcb **
+** Created on 2026-10-20T14:05:29 **
+** Report includes: Errors, Warnings **
+
+** Found 97 DRC violations **
+[clearance]: Violação do isolamento ( isolamento 0,2000 mm; atual 0,0983 mm)
+    Local override; error
+    @(424.1825 mm, 68.5851 mm): Polygon [<no net>] on F.Cu
+    @(415.2900 mm, 75.9460 mm): PCB text 'REV. 1' on F.Cu
+[courtyards_overlap]: Courtyards overlap
+    Rule: configuração das restrições do pedaço; error
+    @(91.6517 mm, 308.4195 mm): Footprint XTAL1
+    @(74.2696 mm, 305.6928 mm): Footprint C28
+[courtyards_overlap]: Courtyards overlap
+    Rule: configuração das restrições do pedaço; error
+    @(413.3850 mm, 274.5740 mm): Footprint P2
+    @(410.8412 mm, 277.5712 mm): Footprint C4
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(276.2504 mm, 322.4060 mm): Footprint C24
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(169.6720 mm, 265.8110 mm): Footprint R11
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(235.5812 mm, 180.5940 mm): Footprint C31
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(113.1570 mm, 313.6900 mm): Footprint R4
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(307.8188 mm, 305.9176 mm): Footprint C9
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(303.2544 mm, 100.7872 mm): Footprint C33
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(425.8564 mm, 246.7140 mm): Footprint C17
+[lib_footprint_mismatch]: O footprint 'Crystal_HC18-U_Horizontal' não corresponde à cópia na biblioteca 'Crystal'
+    Local override; warning
+    @(91.6517 mm, 308.4195 mm): Footprint XTAL1
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(365.2520 mm, 288.6710 mm): Footprint R13
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(335.2584 mm, 99.0600 mm): Footprint C34
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(215.5228 mm, 229.7684 mm): Footprint C36
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(276.4536 mm, 269.7988 mm): Footprint C50
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(353.4156 mm, 262.1280 mm): Footprint R17
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(153.4668 mm, 322.4060 mm): Footprint C27
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(349.5040 mm, 262.1280 mm): Footprint R15
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(366.7252 mm, 276.4752 mm): Footprint C18
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(276.4536 mm, 305.8160 mm): Footprint C52
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(190.4492 mm, 322.4060 mm): Footprint C26
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(419.2524 mm, 246.8880 mm): Footprint R22
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(235.5812 mm, 198.3740 mm): Footprint C37
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(353.6019 mm, 267.2880 mm): Footprint C14
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(113.0300 mm, 304.2920 mm): Footprint C7
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(78.7400 mm, 103.8860 mm): Footprint R10
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(372.8847 mm, 262.0772 mm): Footprint R25
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(276.4536 mm, 180.6448 mm): Footprint C45
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(411.4292 mm, 246.8372 mm): Footprint R21
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(361.2388 mm, 262.1280 mm): Footprint R16
+[lib_footprint_mismatch]: O footprint 'CP_Radial_D8.0mm_P3.50mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(78.6130 mm, 96.4640 mm): Footprint C21
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(317.3692 mm, 292.2016 mm): Footprint C11
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(276.4536 mm, 287.8836 mm): Footprint C51
+[lib_footprint_mismatch]: O footprint 'CP_Radial_D8.0mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(429.3400 mm, 103.2510 mm): Footprint C6
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(408.8384 mm, 268.6088 mm): Footprint C40
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(91.8210 mm, 272.2880 mm): Footprint R30
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(397.5824 mm, 261.4676 mm): Footprint C3
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(349.7580 mm, 267.2880 mm): Footprint C16
+[lib_footprint_mismatch]: O footprint 'PinSocket_1x13_P2.54mm_Vertical' não corresponde à cópia na biblioteca 'Connector_PinSocket_2.54mm'
+    Local override; warning
+    @(419.2270 mm, 296.7990 mm): Footprint CONN.9
+[lib_footprint_mismatch]: O footprint 'PinHeader_1x03_P2.54mm_Vertical' não corresponde à cópia na biblioteca 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(304.9270 mm, 277.3680 mm): Footprint P6
+[lib_footprint_mismatch]: O footprint 'PinHeader_1x03_P2.54mm_Vertical' não corresponde à cópia na biblioteca 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(413.3850 mm, 274.5740 mm): Footprint P2
+[lib_footprint_mismatch]: O footprint 'PinHeader_1x03_P2.54mm_Vertical' não corresponde à cópia na biblioteca 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(115.8240 mm, 264.0330 mm): Footprint P8
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(235.5812 mm, 234.2896 mm): Footprint C39
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(235.5812 mm, 269.9004 mm): Footprint C42
+[lib_footprint_mismatch]: O footprint 'R_Array_SIP9' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(259.3340 mm, 174.2440 mm): Footprint R2
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(368.3508 mm, 72.1068 mm): Footprint C2
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(384.3528 mm, 262.0772 mm): Footprint R19
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(357.3272 mm, 262.1280 mm): Footprint R18
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(276.4536 mm, 234.1880 mm): Footprint C48
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(380.5301 mm, 262.0772 mm): Footprint R26
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(78.5876 mm, 299.0088 mm): Footprint R29
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(95.7580 mm, 236.3470 mm): Footprint R12
+[lib_footprint_mismatch]: O footprint 'PinHeader_1x02_P2.54mm_Horizontal' não corresponde à cópia na biblioteca 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(363.5637 mm, 313.3055 mm): Footprint LS1
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(410.8412 mm, 277.5712 mm): Footprint C4
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(235.5812 mm, 252.0696 mm): Footprint C41
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(235.5596 mm, 322.4060 mm): Footprint C25
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(235.5812 mm, 287.7820 mm): Footprint C43
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(113.1570 mm, 309.6260 mm): Footprint R3
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(276.4536 mm, 216.3064 mm): Footprint C47
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(376.6820 mm, 87.8116 mm): Footprint C35
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(280.2890 mm, 168.5290 mm): Footprint R8
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(317.3184 mm, 287.5788 mm): Footprint C12
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(361.2896 mm, 267.2880 mm): Footprint C15
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(235.5812 mm, 216.2048 mm): Footprint C38
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(312.2676 mm, 322.4060 mm): Footprint C23
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(316.9628 mm, 305.8668 mm): Footprint C10
+[lib_footprint_mismatch]: O footprint 'CP_Radial_D8.0mm_P3.50mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(94.7420 mm, 215.2090 mm): Footprint C8
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(91.8210 mm, 268.3510 mm): Footprint R32
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(353.1616 mm, 322.4060 mm): Footprint C22
+[lib_footprint_mismatch]: O footprint 'PinHeader_1x03_P2.54mm_Vertical' não corresponde à cópia na biblioteca 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(173.4820 mm, 281.0510 mm): Footprint P3
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(369.0620 mm, 262.0772 mm): Footprint R27
+[lib_footprint_mismatch]: O footprint 'R_Array_SIP9' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(276.9870 mm, 174.2440 mm): Footprint R1
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(357.4457 mm, 267.2880 mm): Footprint C13
+[lib_footprint_mismatch]: O footprint 'CP_Radial_D8.0mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(376.9360 mm, 71.8020 mm): Footprint C1
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(95.7580 mm, 268.3510 mm): Footprint R31
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(74.7776 mm, 283.7688 mm): Footprint R9
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(276.4536 mm, 198.3232 mm): Footprint C46
+[lib_footprint_mismatch]: O footprint 'PinHeader_1x03_P2.54mm_Vertical' não corresponde à cópia na biblioteca 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(225.4250 mm, 272.2880 mm): Footprint P4
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(95.7580 mm, 287.5280 mm): Footprint R28
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(407.6700 mm, 246.8372 mm): Footprint R20
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(369.3160 mm, 288.6710 mm): Footprint R14
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(74.2696 mm, 305.6928 mm): Footprint C28
+[lib_footprint_mismatch]: O footprint 'PinHeader_1x03_P2.54mm_Vertical' não corresponde à cópia na biblioteca 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(413.3850 mm, 268.2240 mm): Footprint P1
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(156.1592 mm, 87.6592 mm): Footprint C32
+[lib_footprint_mismatch]: O footprint 'R_Array_SIP9' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(405.3840 mm, 241.4270 mm): Footprint R7
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(78.4860 mm, 88.2104 mm): Footprint C30
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(276.4536 mm, 252.1204 mm): Footprint C49
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(415.4932 mm, 246.8372 mm): Footprint R23
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(74.8792 mm, 187.5752 mm): Footprint C29
+[lib_footprint_mismatch]: O footprint 'PinHeader_1x03_P2.54mm_Vertical' não corresponde à cópia na biblioteca 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(304.9270 mm, 269.7480 mm): Footprint P7
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(313.0080 mm, 191.5160 mm): Footprint C5
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(91.4400 mm, 291.2256 mm): Footprint C19
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(235.5812 mm, 305.9684 mm): Footprint C44
+[lib_footprint_mismatch]: O footprint 'R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal' não corresponde à cópia na biblioteca 'Resistor_THT'
+    Local override; warning
+    @(376.7074 mm, 246.8372 mm): Footprint R24
+[lib_footprint_mismatch]: O footprint 'C_Disc_D6.0mm_W2.5mm_P5.00mm' não corresponde à cópia na biblioteca 'Capacitor_THT'
+    Local override; warning
+    @(91.9010 mm, 249.1740 mm): Footprint C20
+[silk_overlap]: Silkscreen clearance
+    Rule: configuração da serigrafia da placa; warning
+    @(130.4290 mm, 249.4280 mm): Value field of CONN.10 (Keyboard Connector (DIP16))
+    @(117.7036 mm, 249.4280 mm): Reference field of CONN.10
+[silk_overlap]: Silkscreen clearance
+    Rule: configuração da serigrafia da placa; warning
+    @(349.3262 mm, 298.0866 mm): Value field of CONN.12 (Game Connector (DIP16))
+    @(349.3262 mm, 286.9438 mm): Reference field of CONN.12
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(365.6112 mm, 296.7302 mm): Teardrop [Net-(CONN.12-AN2)] on B.Cu
+    @(365.7429 mm, 299.7526 mm): Teardrop [Net-(CONN.12-AN2)] on B.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

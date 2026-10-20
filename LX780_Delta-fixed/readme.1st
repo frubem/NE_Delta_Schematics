@@ -15,15 +15,15 @@ the values for the two addresses.
 
 Potential fix
 
-  * Remove IC63 (74LS251) from its socket and bend pin 2 and 3 outward so they 
+   * Remove IC63 (74LS251) from its socket and bend pin 2 and 3 outward so they 
     don't make contact with the socket anymore
     
-  * Solder a jumper wire from pin 8 of IC5 (74LS04) to pin 3 of IC63
+   * Solder a jumper wire from pin 5 of IC41 (74LS173) to pin 2 of IC63 (74LS251)
+    
+   * Solder a jumper wire from pin 3 of IC41 (74LS173) to pin 9 of IC5 (74LS04)
   
-  * Solder a jumper wire from pin 9 of IC5 to pin 5 of IC41 (74LS173)
+   * Solder a jumper wire from pin 8 of IC5 (74LS04) to pin 3 of IC63 (74LS251)
   
-  * Solder a jumper wire from pin 3 of IC41 to pin 2 of IC63
-
 $Dxxx bank switching
 
 The "Language card" style bank switching is handled by IC41 (74LS173) and 
@@ -47,7 +47,7 @@ In Apple IIe the DHR mode is activated with AN3. In NE Delta with AN2.
 
 Potential fix
 
-* Just swap pins 11 and 12 of IC58 (74LS259)
+   * Just swap pins 11 and 12 of IC58 (74LS259)
 
 
 

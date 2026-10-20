@@ -1,0 +1,53 @@
+NE Delta Fixes. 
+
+!!!!! The NE Delta Board schematics and gerber were fixed but they have been not
+verified yet !!!!!
+
+#####   $C011 and $C012 IO   #####
+
+$C011 address should contain the state of the selected $Dxxx bank on bit 7 of 
+the response, while $C012 should contain information on the switch of the same 
+address range between ROM and RAM.
+
+In the DELTA, the responses for reads on addresses between $C010 - $C017 are
+handled by IC63, a 74LS251. I1 of said IC is tied to VCC, I2 to GND, hardwiring 
+the values for the two addresses.
+
+Potential fix
+
+  * Remove IC63 (74LS251) from its socket and bend pin 2 and 3 outward so they 
+    don't make contact with the socket anymore
+    
+  * Solder a jumper wire from pin 8 of IC5 (74LS04) to pin 3 of IC63
+  
+  * Solder a jumper wire from pin 9 of IC5 to pin 5 of IC41 (74LS173)
+  
+  * Solder a jumper wire from pin 3 of IC41 to pin 2 of IC63
+
+$Dxxx bank switching
+
+The "Language card" style bank switching is handled by IC41 (74LS173) and 
+IC42 (PLD). According to Jim Sather's Understanding the Apple IIe, enabling 
+writes to the RAM bank in $Dxxx should work by having the /HRAMWRT signal reset,
+which first requires having the PRE-WRITE signal to be set.
+
+/HRAMWRT is reset by an odd read access in the $C08x range while PRE-WRITE is 
+set. It can be set by any even access in the $C08x range. Any other type of 
+access leaves the state of /HRAMWRT unchanged.
+
+In the DELTA, IC41 and IC42 set the write enable signal only by checking that 
+the access to the address is an odd one, and that the pre-write signal is 
+enabled. They do not differentiate between reads or writes. So odd writes seems
+to be able to reset the signal equivalent to /HRAMWRT when the pre-write is set
+already.
+
+#####   DHR   #####
+
+In Apple IIe the DHR mode is activated with AN3. In NE Delta with AN2.
+
+Potential fix
+
+* Just swap pins 11 and 12 of IC58 (74LS259)
+
+
+

@@ -68,7 +68,7 @@ Note that you will need, at least, the motherboard (LX780) and one of the video 
 
 Every board directory contains a `fixes.md` file detailing the fix to apply to each revision of the boards:
 
-- [LX780](LX780_Delta/fixes.md)
+- [LX780](LX780_Delta-original/fixes.md)
 - [LX782](LX782_Monochrome_Video/fixes.md)
 - LX783
 
@@ -76,7 +76,7 @@ Every board directory contains a `fixes.md` file detailing the fix to apply to e
 
 Every board directory contains a `bom.md` file containing the bill of material for the card.
 
-- [LX780](LX780_Delta/bom.md)
+- [LX780](LX780_Delta-original/bom.md)
 - [LX782](LX782_Monochrome_Video/bom.md)
 - [LX783](LX783_RGB_Video/bom.md)
 

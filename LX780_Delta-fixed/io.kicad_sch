@@ -28062,7 +28062,7 @@
 			)
 		)
 	)
-	(global_label "BANK_SEL_G"
+	(global_label "READ_EN_G"
 		(shape output)
 		(at 81.28 344.17 0)
 		(fields_autoplaced yes)
@@ -28074,7 +28074,7 @@
 		)
 		(uuid "5bef59e2-e345-4ff4-9fc3-288e16b706e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.8161 344.17 0)
+			(at 94.7275 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28392,7 +28392,7 @@
 			)
 		)
 	)
-	(global_label "NOT_READ_EN_G"
+	(global_label "NOT_BANK_SEL_G"
 		(shape input)
 		(at 88.9 349.25 0)
 		(fields_autoplaced yes)
@@ -28404,7 +28404,7 @@
 		)
 		(uuid "ff41c30c-272e-447f-925a-d021c0cf1efc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.9437 349.25 0)
+			(at 108.0323 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
